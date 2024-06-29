@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Landing page
+        </title>
+       <style>
+*{
+    padding:0;
+    margin:0;
+    
+
+}
+h1{
+    padding-top:5px;
+}
+header {
+    background-color: cornsilk;
+    color: black;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  nav li {
+    margin-left: 30px;
+    font-size:25px;
+  }
+  a:hover{
+    color:orange;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+  
+}
+body{
+               
+    color:white;
+    background-repeat: no-repeat;
+    background-image: url('digital market.jpg');
+    background-size:cover;
+    text-align:center;
+
+}
+p{
+    color:white;
+    font-size:13px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ .pcentered{
+    position: absolute;
+    font-size:20px;
+    top:60%;
+    left:50%;
+    transform:translate(-60%,-50%);
+  }
+  button{
+    position:absolute;
+    font-size:10px;
+    top: 70%;
+    left:40%;
+    
+    width:100px;
+    background-color:#ff009d;
+    color:white;
+    padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left:5px;
+   padding-right:5px;
+   border-radius: 2px;
+  }
+  .h2sty{
+    font-size:20px;
+    text-decoration:underline;
+    text-decoration-color:#ff009d;
+  }
+
+
+
+
+
+
+
+
+</style>
+    </head>
+    <body>
+        <header class="headerstyle">
+           
+            <div class="navbar">
+                <nav>
+                    <h1 id="logo">LANDING PAGE</h1>
+              
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonals</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Buy now</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+        <body>
+            
+          <h1 class="centered">CREATIVE DIGITAL AGENCY</h1>
+          <p class="pcentered">A creative digital agency can offer services such as graphic design, video animation, illustration, content writing, branding, web design and development, SEO, PPC, email marketing, social media marketing, influencer marketing, etc.</p>
+         </p>
+         <button>read more</button>
+        
+            
+        </body>
+        <hr>
+        <hr>
+        <hr>
+       
+          
+      
+
+</html>
