@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portofolio page</title>
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <style>
+
+*{
+    margin:0;
+    padding:0;
+   
+}
+.main{
+    width:100%;
+    height:100vh;
+    position:relative;
+
+}
+.navbar{
+    width:86%;
+    display:flex;
+    margin:auto;
+    padding:15px 0px;
+    align-items:center;
+    justify-content: space-between;
+    color:black;
+    text-decoration: none;
+}
+.navbar.logo{
+    font-size:15px;
+    font-family: Arial;
+    width:160px;
+    margin-top:-3px;
+    margin-left:-2%;
+    
+}
+ul{
+    margin-top:2%;
+    color:black;
+    text-decoration: none;
+}
+ul li{
+    font-size:20px;
+    list-style:none;
+    display:inline-block;
+    padding:10px 16px;
+}
+.imgh{
+    float:right;
+    padding-top:20px;
+    width:40%;
+
+
+    padding-right:10px;
+
+}
+ul li a{
+
+    color:black;
+    text-decoration:none;
+}
+h1{
+    font-size:30px;
+    padding:20px;
+    padding-left:80px;
+   padding-top:100px;
+   
+}
+p{
+    padding-left:80px;
+   
+    padding-top:10px;
+    font-size:30px;
+}
+ 
+
+.fa-github{
+    color:black;
+    font-size:40px;
+    padding:20px;
+
+}
+.fa-youtube{
+    color:red;
+    font-size:40px;
+    Padding:20px;
+
+}
+.fa-linkedin{
+    color:#1877F2;
+    font-size:40px;
+    Padding:20px;
+    
+}
+.home-content{
+    padding-left:50px;
+}
+
+.fa-facebook{
+    color:#1877F3;
+    font-size:40px;
+    padding:20px;
+
+}
+
+
+.first-button {
+    font-size:20px;
+    margin-left: 70px; 
+    margin-top:30px;
+    color:white;
+   background-color:#7F00FF;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left:5px;
+   padding-right:5px;
+   border-color: black;
+   border-radius: 2px;
+}
+
+.second-button {
+    font-size:20px;
+    margin-left: 20px; 
+    color:white;
+
+   background-color:#ff009d;
+   padding-top:5px;
+   padding-bottom:5px;
+   padding-left:5px;
+   padding-right:5px;
+   margin-top:30px;
+   border-color: black;
+   border-radius: 2px;}
+   .second-button.a{
+    color:white;
+    text-decoration:none;
+   }
+</style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <h4 class="logo">karuna portofolio</h4>
+                <ul>
+                    <li> <a href="http://127.0.0.1:5500/codsoft/skills.html">Skills</a></li>
+                    <li><a href="#">Open Source</a></li>
+                    <li> <a href="http://127.0.0.1:5500/codsoft/projects.html">Projects</a></li>
+                    <li><a href="http://127.0.0.1:5500/codsoft/achievements.html">Achievements</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Talks</a></li>
+                    <li> <a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+            <img  class="imgh" src="happy.svg" width="500px" height="500px">
+        
+       
+        <div class="info">
+            <h1>Hii all I'm Karuna 👋</h1>
+           
+        <p >A Passioate Full Stack Software Developer 🚀 having an<br> experience of building Web and Mobile applications with <br>JavaScript/ReactJs/NodeJs/React Native and some other<br> cool libraries and frameworks.</p>
+   
+        
+    <div class="home-content">
+        <a href="https://github.com/karunapolipilli"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/karuna-polipilli-918129289/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://m.youtube.com/@edu-environment"><i class="fa-brands fa-youtube"></i></a> 
+        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        
+    </div>
+    <span>
+        <button class="first-button">CONTACT ME<a href="#"></a></button>
+        &nbsp;
+        <button class="second-button"><a href="http://127.0.0.1:5500/codsoft/my-resume.html">MY RESUME</a></button>
+    </span>
+</div>
+</div>
+
+
+        
+
+    </body>
+</html>
